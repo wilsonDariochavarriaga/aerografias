@@ -1,0 +1,63 @@
+body {
+    font-family:Arial ;
+    background:url(polyscape.jpg) ;  
+    background-size:100%;
+    background-repeat: no-repeat;
+    margin-top:auto;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+.img {
+width: 6em;
+height: 6em;
+margin-left: 6em;
+background:fixed;
+
+
+}
+
+.logotipo {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 5em;
+    word-spacing:1em ;
+}
+.slide   {
+text-decoration:none;
+color: turquoise;
+
+
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #8078c7;
+    width: 90%;
+    max-width: 1000;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 2em;
+  
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: block;
+      
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center; 
+       
+}
+.menu li a:hover{
+    background: #54d0ef;
+    transition: all .5s;
+}
